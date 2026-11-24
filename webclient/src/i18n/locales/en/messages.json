@@ -1,0 +1,41 @@
+{
+  "toast": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "created": "Created successfully",
+    "updated": "Updated successfully",
+    "deleted": "Deleted successfully",
+    "saved": "Saved successfully",
+    "savedSuccessfully": "Saved successfully",
+    "copied": "Copied to clipboard",
+    "operationFailed": "Operation failed",
+    "requiredFields": "Please fill in all required fields",
+    "enterCredentials": "Please enter username and password",
+    "loginSuccess": "Login successful!",
+    "loginFailed": "Login failed",
+    "exportSuccess": "Exported successfully",
+    "exportFailed": "Export failed",
+    "failedToDelete": "Failed to delete",
+    "failedToUpdate": "Failed to update",
+    "failedToSave": "Failed to save",
+    "failedToCreate": "Failed to create"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "new": "new",
+    "markAllRead": "Mark all as read",
+    "noNotifications": "No notifications",
+    "allCaughtUp": "You are all caught up!",
+    "viewAll": "View all announcements & logs",
+    "newLeaveRequest": "New Leave Request",
+    "newLeaveRequestDesc": "Dara Chhim submitted an Annual Leave request for Nov 15-16.",
+    "attendanceCorrection": "Attendance Correction",
+    "attendanceCorrectionDesc": "Sovann Vuthy requested check-in adjustment for yesterday.",
+    "payrollReady": "Payroll Calculation Ready",
+    "payrollReadyDesc": "November 2026 payroll batch has been processed and is ready for review.",
+    "interviewScheduled": "Candidate Interview Scheduled",
+    "interviewScheduledDesc": "Interview with Maly Sok set for tomorrow at 2:00 PM."
+  }
+}

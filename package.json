@@ -1,0 +1,34 @@
+{
+  "name": "staffstream-ems-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack Enterprise EMS Monorepo: Laravel 13 API Backend + React 19 Frontend",
+  "scripts": {
+    "dev": "npm run dev:api & npm run dev:admin",
+    "dev:all": "npm run dev:api & npm run dev:admin",
+    "dev:api": "cd backend && php artisan serve --port=8005",
+    "api": "npm run dev:api",
+    "dev:admin": "npm --prefix webclient run dev",
+    "admin": "npm run dev:admin",
+    "dev:storefront": "echo \"Storefront is not configured for StaffStream EMS\"",
+    "storefront": "npm run dev:storefront",
+    "dev:mobile": "echo \"Mobile application is not configured for StaffStream EMS\"",
+    "mobile": "npm run dev:mobile",
+    "setup": "cd backend && composer install && (test -f .env || cp .env.example .env) && php artisan key:generate && npm --prefix webclient install",
+    "db:migrate": "cd backend && php artisan migrate",
+    "db:seed": "cd backend && php artisan db:seed",
+    "db:fresh": "cd backend && php artisan migrate:fresh --seed",
+    "dev:frontend": "npm --prefix webclient run dev",
+    "dev:backend": "cd backend && php artisan serve --port=8005",
+    "build:frontend": "npm --prefix webclient run build"
+  },
+  "keywords": [
+    "ems",
+    "hospital",
+    "laravel",
+    "react",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT"
+}

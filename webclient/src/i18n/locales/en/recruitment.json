@@ -1,0 +1,23 @@
+{
+  "title": "Recruitment",
+  "subtitle": "Talent pipeline, job requisitions, candidate stages, and hiring onboarding",
+  "activeCandidates": "Active Candidates",
+  "openRequisitions": "Open Requisitions",
+  "hiredConversions": "Hired Conversions",
+  "talentPool": "Talent Pool",
+  "candidatePipeline": "Candidates Pipeline",
+  "jobVacancies": "Job Vacancies",
+  "convertToEmployee": "Convert to Employee",
+  "employeeCreated": "Employee Created",
+  "appliedRole": "Applied Role",
+  "sourceCompany": "Source & Company",
+  "expectedPay": "Expected Pay",
+  "pipelineStage": "Pipeline Stage",
+  "candidateName": "Candidate",
+  "postNewJob": "Post New Job",
+  "addCandidate": "Add Candidate",
+  "pipelineApplicants": "In review pipeline applicants",
+  "activePostings": "Active job postings",
+  "onboardedStaff": "100% onboarded staff",
+  "talentSources": "LinkedIn, Referral, Direct"
+}
